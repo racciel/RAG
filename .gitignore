@@ -3,4 +3,4 @@ documents/*
 chroma_persist
 resourcemonitor.sh
 .env
-!documents
+!documents/.gitkeep
