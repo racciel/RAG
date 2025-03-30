@@ -2,6 +2,13 @@
 
 This is my RAG project, which helps me read scientific papers by allowing me to ask questions about them. This setup matches resources I have available as I would've used different (stronger) models if I had better specs. 
 
+To use it, simply put all your documents inside the documents/ directory and run the programm with the following command:
+
+```console
+streamlit run app.py
+```
+You first have to install all requirements, of course!
+
 ----
 
 Anyhow, make sure to install torch, torchvision & torchaudio + CUDA (which is compatable with your version of CUDA)
