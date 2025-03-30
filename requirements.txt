@@ -1,18 +1,13 @@
-chromadb
-streamlit
-langchain
-langchain_openai
-langchain-aws
-langchain-community
-pandas
-boto3
-numpy
-requests
-bs4
+streamlit>=1.25.0
+numpy>=1.26.2,<3
 transformers
-pypdf
-torch
-tensorflow
-TensorRT
-tf-keras
-sentence-transformers
+torch --index-url https://download.pytorch.org/whl/126
+torchvision --index-url https://download.pytorch.org/whl/126
+torchaudio --index-url https://download.pytorch.org/whl/126
+langchain_community
+langchain_huggingface
+unstructured
+unstructured[pdf]
+faiss-gpu
+faiss-cpu
+accelerate>=0.26.0

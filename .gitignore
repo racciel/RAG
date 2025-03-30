@@ -1,3 +1,5 @@
 ragvenv
-data/*
+documents/*
 chroma_persist
+resourcemonitor.sh
+.env
